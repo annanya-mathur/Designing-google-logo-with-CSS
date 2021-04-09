@@ -23,7 +23,7 @@
 	background-image: conic-gradient(from -26deg at 31% 52.1%,red 0deg,red 90deg,blue 90deg,blue 180deg,green 180deg,green 270deg,yellow 270deg,yellow 360deg);
 	font-size:24em;
 	padding-bottom:70px;
-	font-family: Calibri;
+	font-family: 'Inter', sans-serif;
 	background-clip:text;
 	-webkit-background-clip:text;
 	color:transparent;
