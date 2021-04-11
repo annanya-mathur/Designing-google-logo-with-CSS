@@ -1,3 +1,8 @@
+body{
+	background-image: url("back.jpg");
+	background-size:  cover;
+	background_repeat: no-repeat;
+}
 .back{
 	margin-left:13em;
 	margin-right:14.9em;
