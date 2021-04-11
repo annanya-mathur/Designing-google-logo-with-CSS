@@ -1,9 +1,27 @@
-
-
 body{
-	background-image: url("background.jpg");
-	background-size:  cover;
-	background_repeat: no-repeat;
+	background-image:url("background.jpg");
+	background-size:cover;
+}
+.loader{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: lightgrey;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.disppear{
+  animation: vanish 4s forwards;
+}
+@keyframes vanish {
+  100%{
+    opacity: 0;
+    visibility: hidden;
+  }
 }
 .back{
 	margin-left:13em;
@@ -29,8 +47,10 @@ body{
 	background-image: conic-gradient(from -30deg at 30% 32%,red 0deg,red 90deg,blue 90deg,blue 180deg,green 180deg,green 270deg,yellow 270deg,yellow 360deg);
 	font-size:24em;
 	padding-bottom:70px;
-	font-family: 'Kumbh Sans', sans-serif;
+	border-radius: 2px;
+		font-family: 'Kumbh Sans', sans-serif;
 	background-clip:text;
 	-webkit-background-clip:text;
 	color:transparent;
 }
+
