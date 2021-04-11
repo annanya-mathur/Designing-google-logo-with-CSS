@@ -1,6 +1,11 @@
-var loader=document.querySelector(".loader")
-console.log(loader);
-window.addEventListener("load",vanish);
-function vanish() {
-	loader.classList.add("disappear");
-}
+$(document).ready(function(){
+			// 	$('div#loading').removeAttr('id');
+		// });
+		var preloader = document.getElementById("loading");
+		// window.addEventListener('load', function(){
+		// 	preloader.style.display = 'none';
+		// 	})
+
+		function myFunction(){
+			preloader.style.display = 'none';
+		};
