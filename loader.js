@@ -1,11 +1,8 @@
-$(document).ready(function(){
-			// 	$('div#loading').removeAttr('id');
-		// });
-		var preloader = document.getElementById("loading");
-		// window.addEventListener('load', function(){
-		// 	preloader.style.display = 'none';
-		// 	})
+window.alert("Hi This logo is made by Annanya Mathur"); 
+var loader = document.querySelector(".loader")
 
-		function myFunction(){
-			preloader.style.display = 'none';
-		};
+window.addEventListener("load", vanish);
+
+function vanish() {
+  loader.classList.add("disppear");
+}
